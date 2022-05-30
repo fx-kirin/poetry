@@ -9,9 +9,9 @@ from poetry.exceptions import PoetryException
 from poetry.utils.env import EnvCommandError
 
 
-if TYPE_CHECKING:
-    from pathlib import Path
+from pathlib import Path
 
+if TYPE_CHECKING:
     from poetry.utils.env import Env
 
 
